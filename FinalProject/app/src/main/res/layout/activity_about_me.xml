@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.AboutMe"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/abu">
+
+    <TextView
+        android:id="@+id/ivNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lutfia A. Naflasari"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/ivNim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A11.2021.13544"
+        android:textColor="@color/green"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginBottom="15dp"/>
+
+    <ImageView
+        android:id="@+id/ivFotoSaya"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/fotodiri"
+        android:layout_marginBottom="15dp"/>
+
+    <TextView
+        android:id="@+id/tvAbout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Perkenalkan nama saya Lutfia Arum Naflasari. Saya sering dipanggil dengan Lutfia. Saya lahir di Semarang dan kini sedang menempuh pendidikan S-1 jurusan Teknik Informatika di Universitas Dian Nuswantoro. Sekarang saya tengah menjalani semester 3."
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:paddingHorizontal="10dp"/>
+
+    <Button
+        android:id="@+id/bKembali"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kembali"
+        android:textAllCaps="false"
+        android:layout_marginTop="40dp"/>
+
+</LinearLayout>
